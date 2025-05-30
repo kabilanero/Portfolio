@@ -38,7 +38,7 @@ function Projects() {
       </div>
       <div className="contentprojects">
          <div className="publicprojects">
-          <h2>Public projects</h2>
+          <h1>Public projects</h1>
           <div className="flipcards">
           <h1> Npm Library project</h1>
 

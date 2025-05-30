@@ -11,29 +11,28 @@ function Home() {
 
   return (
     <div className='home'>
-      <div className={`topnav ${menuOpen ? 'expand' : ''}`}>
-  <div className="nav-left">JK</div>
+      <nav className={`topnav ${menuOpen ? 'expand' : ''}`}>
+        <div className="nav-left">JK</div>
 
-  <div className="hamburger" onClick={toggleMenu}>
-    <img
-      src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png"
-      alt="Menu"
-      className="hamburger-icon"
-    />
-  </div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png"
+            alt="Menu"
+            className="hamburger-icon"
+          />
+        </div>
 
-  <div className={`nav-right ${menuOpen ? 'show' : ''}`}>
-    <a className="menu-items" href="#Home"><span>Home</span></a>
-    <a className="menu-items" href="#About"><span>About</span></a>
-    <a className="menu-items" href="#Projects"><span>Projects</span></a>
-    <a className="menu-items" href="#Achievements"><span>Achievements</span></a>
-    <a className="menu-items" href="#Location"><span>Location</span></a>
-  </div>
-</div>
-
+        <div className={`nav-right ${menuOpen ? 'show' : ''}`}>
+          <a className="menu-items" href="#Home"><span>Home</span></a>
+          <a className="menu-items" href="#About"><span>About</span></a>
+          <a className="menu-items" href="#Projects"><span>Projects</span></a>
+          <a className="menu-items" href="#Achievements"><span>Achievements</span></a>
+          <a className="menu-items" href="#Location"><span>Location</span></a>
+        </div>
+      </nav>
 
       <div className="homecontent">
-        <h2>Welcome To<span className='toggletouch'> Kabil's Portfolio</span></h2>
+        <h2>Welcome To <span className='toggletouch'>Kabil's Portfolio</span></h2>
 
         <div className="Toggledetails">
           <h1>Excellence your work with autograph</h1>
@@ -43,7 +42,6 @@ function Home() {
           <button className='Hireme-btn'>Hire me</button>
           <div className="point1"></div>
           <div className="point2"></div>
-          <div className="point3"></div>
         </div>
 
         <div className="img-div">

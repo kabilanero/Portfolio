@@ -10,6 +10,7 @@ import Saas from './Saas.jpg'
 import Bookingsystem from './Booking system.png'
 import Travelbooking from './Travel.mp4'
 import Enquiry from './Enquiry.webp'
+import money from './money.png'
 
 
 function Achievements() {
@@ -145,13 +146,18 @@ function Achievements() {
     <button className="enquiry">Enquiry</button>
     </div>
     <div className="Productoffers">
-      <h2>Offers:</h2>
-      <li>Free Domain hosting For 1 month</li>
-      <li>Free server hosting for 1 month</li>
-      <li>SEO optimasation</li>
-      <li>24/7 Service support</li>
-      <li>Payment in installments</li>
-    </div>
+  <h2>Offers:</h2>
+  
+    <li><img src="https://cdn-icons-png.flaticon.com/512/5610/5610944.png" alt="Domain" className="offer-icon" /> Free Domain hosting For 1 month</li>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/4249/4249871.png" alt="Server" className="offer-icon" /> Free server hosting for 1 month</li>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/2892/2892600.png" alt="SEO" className="offer-icon" /> SEO optimization</li>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Support" className="offer-icon" /> 24/7 Service support</li>
+    <li><img src={money} alt="Installments" className="offer-icon" /> Payment in installments</li>
+  
+</div>
+     
+
+ 
       <div
         ref={sectionRef}
         id="Achievements"
@@ -161,8 +167,7 @@ function Achievements() {
             radial-gradient(circle at top left, rgba(255, 255, 255, 0.4) ${radius + 15}%, transparent ${radius + 15}%),
             radial-gradient(circle at top right, rgba(255, 255, 255, 0.4) ${radius}%, rgb(82, 188, 217) 1%)
           `
-        }}
-      >
+        }}>
         <div className="navachieve">
         <h1>Achievements And Services</h1>
         <p>Choose your business needs below</p>

@@ -1,11 +1,13 @@
 .about{
     min-height:100vh;
+    padding-top:2.5%;
  font-size: 2rem;
   border-bottom: 1px solid rgb(240, 235, 235);
   width:90%;
   margin:20px auto;
   border-top:  1px solid rgb(240, 235, 235);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .Abt-header{
@@ -188,7 +190,6 @@ background: linear-gradient(nulldeg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107,
   color: white;
   flex-shrink: 0;
 }
-
 
 .aboutflipcards::before {
   content: "";

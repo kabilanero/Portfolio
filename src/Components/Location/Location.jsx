@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Location.css';
-import call from './phone.png';
+import call from './telephone.png';
 import loc from './location.png';
 import website from './link.png';
 import email from './mail.png';
@@ -20,7 +20,7 @@ function Location() {
     setQuerydata(prev => ({
       ...prev,
       [field]: e.target.value
-    }));
+    })); 
   };
 
   const handleSubmit = (e) => {
@@ -52,13 +52,13 @@ function Location() {
                 <p><img src={loc} alt="loc" />3/236, Gandhinagar, Bommidi-635301</p>
               </div>
               <div className="connectsite">
-                <p><img src={website} alt="web" />www.kabilsolutions.com</p>
+                <p><img src={website} alt="web" /> <a href="http:// www.kabilsolutions.com" target="_blank" className='lochref'> www.kabilsolutions.com</a></p>
               </div>
               <div className="connect-number">
-                <p><img src={call} alt="call" />8608214689</p>
+                <p><img src={call} alt="call" /><a href="tel:+918608214689" className='lochref'>8608214689</a></p>
               </div>
               <div className="connectemail">
-                <p><img src={email} alt="email" />kapilrhode0000@gmail.com</p>
+                <p><img src={email} alt="email" /><a href="mailto:kapilrhode0000@gmail.com" className='lochref'>kapilrhode0000@gmail.com</a></p>
               </div>
             </div>
           </div>
