@@ -93,7 +93,9 @@
   border-radius: 10px;
   padding:5px;
 }
-  
+.contact-details{
+  font-size: 1.0em;
+}
 }
 .location-details{
   display: flex;
@@ -106,6 +108,7 @@
   display: flex;
   flex-direction:column ;
  flex:1;
+ width:100%;
  justify-content: center;
  align-items: center;
 }
@@ -113,7 +116,7 @@
   border-radius: 20px;
   margin-bottom: 20px;
   max-height: 400px;
-  max-width: 600px;
+  max-width: 90%;
 }
 .locationdesc{
   border-left: 4px solid rgb(0, 0, 0);

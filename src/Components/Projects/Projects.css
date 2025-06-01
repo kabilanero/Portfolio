@@ -131,7 +131,7 @@
 
   .flipcards {
     width: 50vw;
-    height: 30vw;
+    min-height: 48vw;
     margin-top: 4%;
     
   }
